@@ -115,7 +115,7 @@ function getPasswordOptions() {
   console.log(pwdLength, useUpperCase, useLowerCase, useNumeric, useSpecial);
   return pwdLength, useLowerCase, useUpperCase, useNumeric, useSpecial;
 }
-
+/*
 // Function for getting a random element from an array
 function getRandom() {
   let passwordCharacters = [];
@@ -124,7 +124,7 @@ function getRandom() {
       passwordCharacters.push(nextCharacter);
   }
 }
-
+*/
 // Function to generate password with user input
 function generatePassword() {
   getPasswordOptions();
