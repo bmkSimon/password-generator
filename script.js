@@ -123,8 +123,6 @@ function getRandom() {
       let nextCharacter = characterCodes[Math.floor(Math.random() * characterCodes.length)]
       passwordCharacters.push(nextCharacter);
   }
-
-
 }
 
 // Function to generate password with user input
