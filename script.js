@@ -94,9 +94,9 @@ var upperCasedCharacters = [
 function generatePassword() {
   
   //Prompt the user to input password length. Will not allow empty value or value outside of the min/max values
-  let pwdLengthNumber = prompt("Please enter a desired password lenght between 8 and 128 characters.");
-  while (pwdLengthNumber < 8 || pwdLengthNumber > 128 || pwdLengthNumber === "") {
-  pwdLengthNumber = prompt("The value entered is invalid. Please enter a desired password lenght between 8 and 128 characters. ");
+  let pwdLengthNumber = prompt("Please enter your desired password lenght between 8 and 128 characters.");
+  while (pwdLengthNumber < 8 || pwdLengthNumber > 128 || pwdLengthNumber === "" || isNaN(pwdLengthNumber)) {
+  pwdLengthNumber = prompt("The value entered is invalid. Please enter a numeric desired password lenght between 8 and 128 characters. ");
   }
   pwdLength = pwdLengthNumber.valueOf(); 
 
@@ -138,7 +138,7 @@ function generatePassword() {
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
 
-// Write password to the #password input
+// Write password to the #password input. When run, it invokes the generatePassword function and writes the resulting passord to the #password element.
 function writePassword() {
   var pwdLength, useUpperCase, useLowerCase, useNumeric, useSpecial;
   var password = generatePassword(pwdLength, useUpperCase, useLowerCase, useNumeric, useSpecial);
@@ -147,5 +147,5 @@ function writePassword() {
   passwordText.value = password;
 }
 
-// Add event listener to generate button
+// Add event listener to generate button. WHen clicked, the Write password function is run
 generateBtn.addEventListener('click', writePassword);
