@@ -6,11 +6,10 @@ __Use Instructions__
 To operate this application, the user will simply need to click on the "Generate Password" button. 
 ![Click to generate](./assets/images/Step1.png)
 
-Once clicked, the user will be presented with a series of parameters that they would like the password to conform to.
-First, the password lenght is selected.
+Once clicked, the user will be presented with a series of parameters that they would like the password to conform to.  First, the password lenght is selected.
 ![Choose pasword length](./assets/images/Step2.png)
 
-The passwword lenght cannot be left empty, cannot be outside of the minimum/maximul length and must be numeric.The user cannot proceed until these conditions are met.
+The passwword lenght cannot be left empty, cannot be outside of the minimum/maximum length and must be numeric.  The user cannot proceed until these conditions are met.
 ![Validate password length entry](./assets/images/Step3.png)
 
 The user will then select the types of characters that the password will consist of.
