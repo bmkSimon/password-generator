@@ -94,9 +94,9 @@ var upperCasedCharacters = [
 function generatePassword() {
   
   //Prompt the user to input password length. Will not allow empty value or value outside of the min/max values
-  let pwdLengthNumber = prompt("Please enter a desired password lenght between 8 and 128 characters.");
+  let pwdLengthNumber = prompt("Please enter your desired password lenght between 8 and 128 characters.");
   while (pwdLengthNumber < 8 || pwdLengthNumber > 128 || pwdLengthNumber === "") {
-  pwdLengthNumber = prompt("The value entered is invalid. Please enter a desired password lenght between 8 and 128 characters. ");
+  pwdLengthNumber = prompt("The value entered is invalid. Please enter a numeric desired password lenght between 8 and 128 characters. ");
   }
   pwdLength = pwdLengthNumber.valueOf(); 
 

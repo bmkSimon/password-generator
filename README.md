@@ -1,5 +1,5 @@
 # password-generator
-Create an application that will allow the generation of a password based on user-selected criteria.
+The goal of this project is to create an application that will allow the generation of a random password based on user-selected criteria.
 
 __Use__
 
