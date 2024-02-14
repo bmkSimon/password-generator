@@ -138,7 +138,7 @@ function generatePassword() {
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
 
-// Write password to the #password input
+// Write password to the #password input. When run, it invokes the generatePassword function and writes the resulting passord to the #password element.
 function writePassword() {
   var pwdLength, useUpperCase, useLowerCase, useNumeric, useSpecial;
   var password = generatePassword(pwdLength, useUpperCase, useLowerCase, useNumeric, useSpecial);
@@ -147,5 +147,5 @@ function writePassword() {
   passwordText.value = password;
 }
 
-// Add event listener to generate button
+// Add event listener to generate button. WHen clicked, the Write password function is run
 generateBtn.addEventListener('click', writePassword);
