@@ -115,6 +115,16 @@ function getPasswordOptions() {
   console.log(pwdLength, useUpperCase, useLowerCase, useNumeric, useSpecial);
   return pwdLength, useLowerCase, useUpperCase, useNumeric, useSpecial;
 }
+/*
+// Function for getting a random element from an array
+function getRandom() {
+  let passwordCharacters = [];
+  for (let i =0; i < pwdLength; i++) {
+      let nextCharacter = characterCodes[Math.floor(Math.random() * characterCodes.length)]
+      passwordCharacters.push(nextCharacter);
+  }
+}
+*/
 
 // Function for getting a random element from an array
 //function getRandom(arr) {
