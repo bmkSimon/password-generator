@@ -117,7 +117,7 @@ function getPasswordOptions() {
 }
 
 // Function for getting a random element from an array
-function getRandom(arr) {
+function getRandom() {
   let passwordCharacters = [];
   for (let i =0; i < pwdLength; i++) {
       let nextCharacter = characterCodes[Math.floor(Math.random() * characterCodes.length)]
