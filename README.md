@@ -8,7 +8,7 @@ To operate this application, the user will simply need to click on the "Generate
 
 Once clicked, the user will be asked a series of parameters that they would like the password to conform to.  
 
-First, the password lenght is selected.
+First, the password lenght is selected.  
 ![Choose pasword length](./assets/images/Step2.png)
 
 The passwword lenght cannot be left empty, cannot be outside of the minimum/maximum length and must be numeric.  
